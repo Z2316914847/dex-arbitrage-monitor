@@ -1,0 +1,17 @@
+{
+  "name": "dex-arbitrage-monitor",
+  "version": "1.0.0",
+  "description": "监控Uniswap和SushiSwap ETH-USDT池子价格的套利监控工具",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "dev": "node --watch monitor.js"
+  },
+  "dependencies": {
+    "viem": "^2.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["defi", "arbitrage", "uniswap", "sushiswap", "ethereum"],
+  "author": "",
+  "license": "MIT"
+}

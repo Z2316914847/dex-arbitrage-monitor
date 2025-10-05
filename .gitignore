@@ -1,0 +1,25 @@
+# 编译文件
+cache/
+out/
+
+# 广播的文件
+# !/broadcast
+# /broadcast/*/31337/
+# /broadcast/**/dry-run/
+
+# 依赖文件
+node_modules/
+
+# 环境变量文件
+.env
+
+# 日志
+*.log
+
+#  IDE配置
+# .vscode/
+# .idea/
+
+# OS generated files
+# .DS_Store
+# Thumbs.db
